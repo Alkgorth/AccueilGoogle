@@ -33,8 +33,6 @@ google-homepage/
    ├─ css/
    │  └─ styles.css
    ├─ img/
-   └─ js/
-      └─ main.js
 ```
 
 ## Fichiers principaux
