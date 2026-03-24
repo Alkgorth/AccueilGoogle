@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Google</title>
+</head>
+
+<body>
+    <header>
+        <nav class="header-nav" aria-label="Navigation principale">
+            <div>
+                <ul>
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">Google Store</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#">Gmail</a></li>
+                    <li><a href="#">Images</a></li>
+                    <li class="apps-wrapper">
+                        <button id="apps-toggle" class="apps-button" type="button" aria-label="Applications Google"
+                            aria-expanded="false">
+                            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                        </button>
+
+                        <div id="apps-menu" class="apps-menu">
+                            <ul>
+                                <li><a href="#">Gmail</a></li>
+                                <li><a href="#">Images</a></li>
+                                <li><a href="#">Drive</a></li>
+                                <li><a href="#">Agenda</a></li>
+                                <li><a href="#">Maps</a></li>
+                                <li><a href="#">YouTube</a></li>
+                                <li><a href="#">Docs</a></li>
+                                <li><a href="#">Sheets</a></li>
+                                <li><a href="#">Meet</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li>
+                        <button class="avatar-button" type="button" aria-label="Compte Google">
+                            <span class="avatar-icon">👤</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <img src="assets/img/Google_2015_logo.svg.webp" alt="Google">
+        </div>
+        <div>
+            <form>
+                <div class="search-input-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="search-icon" width="16" height="16" viewBox="0 0 50 50" aria-hidden="true">
+                        <path d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z"></path>
+                        </svg>
+                    <label for="search" hidden class="label-search">Recherche</label>
+                    <input name="search" id="search" type="text" placeholder="Rechercher">
+                    <span class="microphone-icon">
+                        <img src="assets/img/icons8-microphone-24.png" alt="Microphone">
+                    </span>
+                </div>
+                <div class="search-actions">
+                    <button class="search-btn search-btn-primary" type="submit">Recherche Google</button>
+                    <button class="search-btn search-btn-secondary" type="button">J'ai de la chance</button>
+                </div>
+            </form>
+        </div>
+
+    </main>
+    <footer>
+        <div>
+            <p class="footer-country">France</p>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">Publicité</a></li>
+                <li><a href="#">Entreprise</a></li>
+                <li><a href="#">Comment fonctionne la recherche Google ?</a></li>
+            </ul>
+        </div>
+        <div>
+            <span class="footer-climate">Notre troisième décennie d'action pour le climat</span>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">Signaler un contenu inapproprié</a></li>
+                <li><a href="#">Info consommateur</a></li>
+                <li><a href="#">Confidentialité</a></li>
+                <li><a href="#">Conditions</a></li>
+                <li><a href="#">Paramètres</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
