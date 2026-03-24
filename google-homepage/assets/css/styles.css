@@ -235,11 +235,6 @@ footer a {
     color: #3c4043;
 }
 
-/* Zone droite nav */
-.apps-wrapper {
-    position: relative;
-}
-
 /* Bouton grille de points */
 .apps-button {
     display: grid;
@@ -265,16 +260,21 @@ footer a {
     border-radius: 50%;
 }
 
+/* Zone droite nav */
+.apps-wrapper {
+    position: relative;
+}
+
 /* Menu déroulant applications */
 .apps-menu {
     display: none;
     position: absolute;
     top: 44px;
     right: 0;
-    width: 220px;
-    padding: 12px;
+    width: 300px;
+    padding: 16px;
     border: 1px solid #dadce0;
-    border-radius: 12px;
+    border-radius: 16px;
     background: #fff;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
     z-index: 20;
